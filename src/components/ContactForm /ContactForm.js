@@ -8,7 +8,7 @@ export const ContactForm = props => {
       onSubmit={values => props.submitFunc(values)}
     >
       <Form>
-        <p>Name</p>
+        <p>Name :</p>
         <Field
           type="text"
           name="name"
@@ -16,7 +16,7 @@ export const ContactForm = props => {
           title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
           required
         />
-        <p>Phone</p>
+        <p>Phone :</p>
         <Field
           type="tel"
           name="number"
